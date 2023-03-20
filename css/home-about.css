@@ -1,0 +1,34 @@
+.home .container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto;
+  row-gap: 10px;
+}
+
+.item-content {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto;
+  row-gap: 10px;
+}
+
+.item-content--img {
+  width: 100%;
+  max-height: 200px;
+}
+
+.item-content--description {
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.opening-hours--details {
+  display: grid;
+  row-gap: 10px;
+}
+
+.opening-hours--details li p {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}

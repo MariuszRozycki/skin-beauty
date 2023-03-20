@@ -1,0 +1,51 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+:root {
+  /* colors */
+  --color-no1: #ff5722;
+  --color-no2: #ffa210;
+  --color-no3: #ffaf31;
+  --color-no4: #334B84;
+  --color-no5: #243662;
+  --color-no6: rgb(18, 29, 56);
+  --color-no7: #fff;
+  --color-no8: #4a4949;
+  --color-no9: #000000;
+  --color-no10: #17daa3;
+  --color-no11: #631D04;
+
+  /* font-size standard*/
+  --normal-font-size: 1rem;
+  --medium-font-size: 2rem;
+  --big-font-size: 3rem;
+
+  /* border-radius */
+  --circle-radius: 50%;
+  --big-radius: 25px;
+  --middle-radius: 15px;
+  --small-radius: 5px;
+
+  /* box-shadow */
+  --box-shadow: 0px 0px 40px 5px #000;
+  --box-shadow-white: 0px 0px 40px 5px var(--color-no7);
+  --box-shadow-light: 0px 0px 10px 1px #000;
+  --box-shadow-light-white: 0px 0px 10px 1px var(--color-no7);
+
+  /* text-shadow */
+  --text-shadow-dark: 2px 2px 5px var(--color-no9);
+  --text-shadow-light: 2px 2px 5px var(--color-no7);
+  --prefix-text-shadow: 4px 5px 4px #000;
+
+  /* padding: hamburger-menu + nav-main_list */
+  --padding-hamburger-menu: 10px 5px;
+  --padding-hamburger-menu-icon: 10px;
+
+  /* transition */
+  --transition-medium: .3s;
+}

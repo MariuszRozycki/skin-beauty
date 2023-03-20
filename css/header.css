@@ -1,0 +1,56 @@
+header .container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  align-items: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-image: url('../images/header-img.jpg');
+  width: 100%;
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-content {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+header .container::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .3);
+  z-index: 1;
+}
+
+header h1 {
+  color: var(--color-no7);
+  font-weight: 300;
+  font-size: calc(var(--medium-font-size) + .8vw);
+  text-align: center;
+  text-shadow: var(--text-shadow-dark);
+}
+
+header h1 .first-letter {
+  font-weight: 400;
+}
+
+.btn-booking {
+  box-shadow: var(--box-shadow-light-white);
+  background-color: rgba(0, 0, 0, .5);
+  text-shadow: var(--text-shadow-dark);
+}

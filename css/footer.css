@@ -1,0 +1,26 @@
+footer {
+  background-color: var(--color-no9);
+}
+
+footer ul {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(4, auto);
+  row-gap: 5px;
+}
+
+footer ul li {
+  display: grid;
+  justify-content: center;
+}
+
+footer a {
+  font-size: var(--normal-font-size);
+  display: block;
+  color: var(--color-no7);
+  font-weight: 200;
+}
+
+footer a span {
+  display: block;
+}
