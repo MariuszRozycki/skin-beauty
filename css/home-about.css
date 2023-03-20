@@ -24,7 +24,9 @@
 
 .opening-hours--details {
   display: grid;
-  row-gap: 10px;
+  row-gap: 5px;
+  background-color: var(--color-no12);
+  padding: 10px 5px;
 }
 
 .opening-hours--details li p {
