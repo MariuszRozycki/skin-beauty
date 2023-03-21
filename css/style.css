@@ -8,5 +8,8 @@
 /* treatments */
 @import url('treatments.css');
 
+/* treatment-details */
+@import url('treatment-details.css');
+
 /* contact */
 @import url('contact.css');
