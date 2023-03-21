@@ -1,0 +1,27 @@
+.wrapper-items--treatments {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+.item-content-treatment {
+  box-shadow: var(--box-shadow-light);
+  border-radius: var(--middle-radius);
+  background-color: var(--color-no13);
+}
+
+.item-content-treatment .container {
+  row-gap: 20px;
+}
+
+.item-content-treatment img {
+  border-radius: var(--middle-radius);
+}
+
+.btn-more {
+  border: 1px solid;
+  background-color: var(--color-no3);
+  box-shadow: var(--box-shadow-light);
+  color: var(--color-var9);
+}

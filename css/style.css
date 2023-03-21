@@ -5,5 +5,8 @@
 @import url('home-about.css');
 @import url('footer.css');
 
+/* treatments */
+@import url('treatments.css');
+
 /* contact */
 @import url('contact.css');

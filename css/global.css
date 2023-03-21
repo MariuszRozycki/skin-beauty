@@ -1,12 +1,9 @@
 :root {
   position: relative;
-  top: 0;
-  left: 0;
   min-height: 100vh;
 }
 
 body {
-  min-height: 200vh;
   background-color: rgba(74, 73, 73, .1);
 }
 
@@ -30,7 +27,7 @@ section {
 section::before {
   display: block;
   content: "";
-  width: 35%;
+  width: 100px;
   height: 3px;
   margin: auto;
   background-color: var(--color-no2);
@@ -38,20 +35,22 @@ section::before {
 
 /* headers */
 
-h1 {
-  font-size: var(--big-font-size);
-}
-
-h2 {
-  font-size: var(--medium-font-size);
-}
-
 h1,
 h2,
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   text-align: center;
+}
+
+h1 {
+  font-size: calc(var(--normal-font-size) + 5.2vw);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: calc(var(--normal-font-size) + 2.7vw);
 }
 
 .h1-wrapper,
@@ -63,7 +62,7 @@ h3 {
 }
 
 .h2-wrapper h2 {
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
@@ -125,6 +124,7 @@ a span {
 }
 
 .home .container,
+.treatments .container,
 .contact .container,
 .social-media .container {
   display: grid;

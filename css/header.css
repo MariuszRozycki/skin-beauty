@@ -51,6 +51,6 @@ header h1 .first-letter {
 
 .btn-booking {
   box-shadow: var(--box-shadow-light-white);
-  background-color: rgba(0, 0, 0, .5);
+  /* background-color: var(--color-no8); */
   text-shadow: var(--text-shadow-dark);
 }
