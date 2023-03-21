@@ -50,6 +50,7 @@
 
 .nav-main_list {
   width: 100%;
+  padding: var(--padding-hamburger-menu-icon);
   position: absolute;
   background-color: var(--color-no7);
   top: 80px;

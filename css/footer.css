@@ -20,7 +20,3 @@ footer a {
   color: var(--color-no7);
   font-weight: 200;
 }
-
-footer a span {
-  display: block;
-}

@@ -42,6 +42,10 @@ h1 {
   font-size: var(--big-font-size);
 }
 
+h2 {
+  font-size: var(--medium-font-size);
+}
+
 h1,
 h2,
 h3 {
@@ -50,6 +54,7 @@ h3 {
   text-align: center;
 }
 
+.h1-wrapper,
 .h2-wrapper {
   display: flex;
   flex-direction: column;
@@ -62,6 +67,7 @@ h3 {
   text-transform: uppercase;
 }
 
+.h1-wrapper p,
 .h2-wrapper p {
   font-weight: 400;
   font-style: italic;
@@ -73,9 +79,13 @@ img {
   height: 100%;
 }
 
-p {
+.h1-wrapper h2 span,
+p,
+li {
   font-family: 'Montserrat', sans-serif;
   font-size: calc(var(--normal-font-size) + .7vw);
+  line-height: 1.3;
+  font-weight: 300;
 }
 
 .btn {
@@ -100,6 +110,10 @@ a {
   text-decoration: none;
 }
 
+a span {
+  display: block;
+}
+
 .modal-on {
   background-color: rgba(18, 29, 56, .6);
   position: absolute;
@@ -108,4 +122,20 @@ a {
   z-index: 0;
   top: 0;
   left: 0;
+}
+
+.home .container,
+.contact .container,
+.social-media .container {
+  display: grid;
+  row-gap: 10px;
+}
+
+.opening-hours--details,
+.contact-data {
+  border-radius: var(--small-radius);
+}
+
+.item-content {
+  padding-top: 20px;
 }

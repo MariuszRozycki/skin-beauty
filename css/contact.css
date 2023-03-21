@@ -1,0 +1,48 @@
+iframe {
+  max-width: 100%;
+}
+
+.h1-wrapper h2 span {
+  display: block;
+  font-weight: 500;
+}
+
+.contact-data,
+.icons-wrapper {
+  background-color: var(--color-no13);
+  padding: 10px 5px;
+}
+
+.contact-data li {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.contact a {
+  color: var(--color-no9);
+  font-weight: 400;
+}
+
+.contact a span {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.social-media i {
+  font-size: calc(var(--medium-font-size) + 1vw);
+  border: 3px solid;
+  border-radius: var(--circle-radius);
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--color-no9);
+}
+
+.icons-wrapper {
+  display: flex;
+  column-gap: 15px;
+  justify-content: center;
+}
