@@ -7,7 +7,7 @@
   width: 100%;
   z-index: 3;
   transform: var(--transition-medium);
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .nav-main .container {
@@ -18,8 +18,8 @@
 }
 
 .logo p {
-  color: var(--color-no7);
-  font-size: calc(var(--normal-font-size) + 0.5vw);
+  color: var(--color-no14);
+  font-size: calc(var(--normal-font-size) + 1vw);
   font-weight: 400;
   text-shadow: var(--text-shadow-dark);
 }
@@ -42,7 +42,7 @@
   width: 50px;
   height: 5px;
   margin: 5px 0;
-  background-color: var(--color-no7);
+  background-color: var(--color-no14);
   border-radius: 50px;
   transition: var(--transition-medium);
   box-shadow: var(--text-shadow-dark);

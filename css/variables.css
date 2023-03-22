@@ -21,6 +21,8 @@ font-family: 'Roboto', sans-serif;
   --color-no11: #631D04;
   --color-no12: #deb887b6;
   --color-no13: rgba(222, 184, 135, .2);
+  --color-no14: #393053;
+  --color-no15: #105844;
 
   /* font-size standard*/
   --normal-font-size: 1rem;
@@ -40,7 +42,7 @@ font-family: 'Roboto', sans-serif;
   --box-shadow-light-white: 0px 0px 10px 1px var(--color-no7);
 
   /* text-shadow */
-  --text-shadow-dark: 2px 2px 5px var(--color-no9);
+  --text-shadow-dark: 2px 2px 8px var(--color-no9);
   --text-shadow-light: 2px 2px 5px var(--color-no7);
   --prefix-text-shadow: 4px 5px 4px #000;
 
