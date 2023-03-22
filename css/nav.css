@@ -8,6 +8,7 @@
   z-index: 3;
   transform: var(--transition-medium);
   background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: var(--box-shadow);
 }
 
 .nav-main .container {
