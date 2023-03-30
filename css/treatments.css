@@ -11,8 +11,11 @@
   background-color: var(--color-no13);
 }
 
-.item-content-treatment .container {
+.grid-container {
+  display: grid;
   row-gap: 20px;
+  grid-template-columns: 95%;
+  justify-content: center;
 }
 
 .item-content-treatment img {
