@@ -30,7 +30,7 @@ section::before {
   width: 100px;
   height: 3px;
   margin: auto;
-  background-color: var(--color-no15);
+  background-color: var(--color-no16);
 }
 
 /* headers */

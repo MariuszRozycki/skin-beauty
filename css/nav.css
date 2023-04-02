@@ -69,20 +69,23 @@
 }
 
 /* bars transition */
+.bar-one,
+.bar-two,
+.bar-three {
+  background-color: var(--color-no16);
+}
+
 .bar-one {
   transform: translateY(10px) rotate(45deg);
-  background-color: var(--color-no9);
 }
 
 .bar-three {
   transform: translateY(-10px) rotate(-45deg);
-  background-color: var(--color-no9);
 }
 
 .bar-two {
   display: translate(100px);
   opacity: 0;
-  background-color: var(--color-no9);
 }
 
 .background-action {
