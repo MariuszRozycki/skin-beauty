@@ -51,6 +51,7 @@ h1 {
 
 h2 {
   font-size: calc(var(--normal-font-size) + 2.7vw);
+  color: var(--color-no16);
 }
 
 .h1-wrapper,

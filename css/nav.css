@@ -19,7 +19,7 @@
 }
 
 .logo p {
-  color: var(--color-no14);
+  color: var(--color-no16);
   font-size: calc(var(--normal-font-size) + 1vw);
   font-weight: 400;
   text-shadow: var(--text-shadow-dark);
@@ -43,7 +43,7 @@
   width: 50px;
   height: 5px;
   margin: 5px 0;
-  background-color: var(--color-no14);
+  background-color: var(--color-no16);
   border-radius: 50px;
   transition: var(--transition-medium);
   box-shadow: var(--text-shadow-dark);
