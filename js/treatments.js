@@ -14,7 +14,7 @@ function renderAllProducts() {
         <h2>${product.name}</h2>
         <p>${product.excerpt}</p>
       </div>
-      <a href="treatment-details.html" class="btn btn-treatment">Les mer</a>
+      <a href="treatment-details.html?id=${product.id}" class="btn btn-treatment">Les mer</a>
     </div>
   </div>
   `;

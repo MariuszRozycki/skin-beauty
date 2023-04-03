@@ -13,7 +13,7 @@
 <body>
   <nav class="nav-main">
     <div class="container">
-      <div class="logo">
+      <div class="logo" onclick="location.href='../index.html'">
         <p><span class="first-letter">S</span>kin & <span class="first-letter">B</span>eauty<span
             class="logo-name"><span class="first-letter">A</span>lena</span></p>
       </div>
@@ -25,32 +25,20 @@
       <ul class="nav-main_list">
         <li><a href="../index.html">Home</a></li>
         <li><a href="#">Prise liste</a></li>
-        <li><a href="treatments.html" class="active">Behandlinger</a></li>
-        <li><a href="#">Blog</a></li>
+        <li><a href="treatments.html">Behandlinger</a></li>
+        <li><a href="treatment-details.html" class="active">Detaljer</a></li>
         <li><a href="contact.html">Kontakt</a></li>
       </ul>
     </div>
   </nav>
   <section class="treatments">
-    <div class="item-content item-content-treatment-details">
-      <div class="container">
-        <div class="h2-wrapper">
-          <h2>Vippe extensions</h2>
-          <p>Noe for alle kvinner som ønsker seg å få lengre vipper</p>
-        </div>
-        <div class="item-content--img">
-          <img src="../images/women-lashes/pexels-tubarones-photography-3065453-1.jpg"
-            alt="Bilde av vipper laget av Alena">
-        </div>
-        <p class="item-content--description treatment-content--description">Lorem Ipsum is simply dummy text of the
-          printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-          galley of type and scrambled it to make a type specimen book.</p>
-        <a href="" class="btn btn-treatment">Bestill time</a>
+    <div class="container">
+      <div class="h1-wrapper">
+        <h1>Detalje</h1>
+        <p><a href="../layout/treatments.html" class="treatments-nav">&lt;&lt;&lt; Alle behandlinger</a></p>
       </div>
-    </div>
-    </div>
-    </div>
+      <div class="item-content item-content-treatment-details"></div>
+
   </section>
 
   <footer>
@@ -74,6 +62,8 @@
 
   <div class="modal"></div>
   <script src="../js/nav.js"></script>
+  <script src="../js/products.js"></script>
+  <script src="../js/treatment-details.js"></script>
 </body>
 
 </html>

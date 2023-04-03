@@ -1,7 +1,21 @@
+.treatments-nav {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 .item-content-treatment-details .container {
   row-gap: 20px;
 }
 
 .treatment-content--description {
   margin-bottom: 30px;
+}
+
+.item-content-treatment-details ul {
+  text-align: left;
+}
+
+.item-content-treatment-details li {
+  list-style: disc;
+  margin-left: 25px;
 }

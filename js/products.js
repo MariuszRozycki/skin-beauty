@@ -6,7 +6,11 @@ const products = [
     type: 'Vipper',
     image: '../images/lashes1.jpg',
     excerpt: 'Noe for alle kvinner som ønsker seg å få lengre vipper',
-    description: '1:1 styling er en klassisk metode som består i å feste en falsk øyevippe til en ekte vippe. Effekten her er veldig      naturlig, og øyet er litt skissert. Synlig her er først og fremst forlengelse, krølling og mørklegging av øyevipper, men det er ingen fortykningseffekt. Det er et godt valg for folk som ønsker å forsiktig understreke utseendet, uten den synlige effekten av falske øyevipper. Det vil fungere spesielt godt med naturlig ganske tykke øyevipper.'
+    description: '1:1 styling er en klassisk metode som består i å feste en falsk øyevippe til en ekte vippe. Effekten her er veldig      naturlig, og øyet er litt skissert. Synlig her er først og fremst forlengelse, krølling og mørklegging av øyevipper, men det er ingen fortykningseffekt. Det er et godt valg for folk som ønsker å forsiktig understreke utseendet, uten den synlige effekten av falske øyevipper. Det vil fungere spesielt godt med naturlig ganske tykke øyevipper.',
+    treatments: innerHTML = `<ul>
+                    <li>vippe extentions</li>
+                    <li>vippeløft</li>
+                </ul>`,
   },
   {
     id: ++id,
@@ -14,7 +18,11 @@ const products = [
     type: 'Ansiktsbehandling',
     image: '../images/eyebrows.jpg',
     excerpt: 'Excerpt om bryn',
-    description: 'Dypt rengjørende ansiktsbehandling av huden, som gjøres for hånd for å få huden ren. Behandlingen inkluderer  peeling, rensing av huden, serum, maske og krem etter hudtype.'
+    description: 'Dypt rengjørende ansiktsbehandling av huden, som gjøres for hånd for å få huden ren. Behandlingen inkluderer  peeling, rensing av huden, serum, maske og krem etter hudtype.',
+    treatments: innerHTML = `<ul>
+                    <li>øyebryn design med farging</li>
+                    <li>brynlaminering/brow lift</li>
+                </ul>`,
   },
   {
     id: ++id,
@@ -22,7 +30,16 @@ const products = [
     type: 'Ansiktsbehandling',
     image: '../images/face.jpg',
     excerpt: 'Excerpt om Ansiktsbehandling m/ultralyd',
-    description: 'Ultralydsbehandling er en effektiv og skånsom dyp rengjøring og peeling av huden, som samtidig aktiverer hudens funksjoner.'
+    description: 'Ultralydsbehandling er en effektiv og skånsom dyp rengjøring og peeling av huden, som samtidig aktiverer hudens funksjoner.',
+    treatments: `<ul>
+                    <li>dyprens</li>
+                    <li>ansiktsbehandling</li>
+                    <li>ansiktsmassasje</li>
+                    <li>no needle masoterapi</li>
+                    <li>ansiktsbehandling med ultralyd</li>
+                    <li>kjemisk peeling</li>
+                    <li>kavitasjon peeling</li>
+                </ul>`,
   },
 ];
 
