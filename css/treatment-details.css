@@ -1,21 +1,44 @@
 .treatments-nav {
   font-weight: 600;
   text-decoration: underline;
+  color: var(--color-no16);
 }
 
 .item-content-treatment-details .container {
   row-gap: 20px;
 }
 
-.treatment-content--description {
-  margin-bottom: 30px;
-}
-
 .item-content-treatment-details ul {
   text-align: left;
 }
 
-.item-content-treatment-details li {
-  list-style: disc;
-  margin-left: 25px;
+.treatment-name {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: var(--transition-medium);
+  cursor: pointer;
+}
+
+.treatment-name:hover {
+  text-decoration: underline;
+}
+
+.treatment-content--description {
+  height: 0;
+  line-height: 1.5;
+  overflow-y: hidden;
+  transition: .5s;
+  padding: 0 0;
+}
+
+.read-more {
+  color: var(--color-no16);
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.animate-more-description {
+  height: 150px;
+  overflow-y: auto;
 }
