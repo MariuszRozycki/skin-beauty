@@ -29,18 +29,17 @@ itemContentTreatmentDetails.innerHTML = `
   `;
 
 
-const readMoreButtons = document.querySelectorAll(".read-more");
+const treatmentNameButtons = document.querySelectorAll(".treatment-name");
 let flag;
 
-for (let readMoreButton of readMoreButtons) {
-  readMoreButton.addEventListener('click', () => {
+for (let treatmentNameButton of treatmentNameButtons) {
+  treatmentNameButton.addEventListener('click', () => {
     flag = !flag;
     console.log(flag);
     const treatementDescriptions = document.querySelectorAll(".treatment-content--description");
     for (let singleDesc of treatementDescriptions) {
-      if (singleDesc.getAttribute("data-id") === (readMoreButton.getAttribute("data-id"))) {
+      if (singleDesc.getAttribute("data-id") === (treatmentNameButton.getAttribute("data-id"))) {
         singleDesc.classList.toggle("animate-more-description");
-        flag ? readMoreButton.innerHTML = "Less content" : readMoreButton.innerHTML = "Read more";
       };
     }
   });
