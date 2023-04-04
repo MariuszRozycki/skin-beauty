@@ -26,10 +26,9 @@ const products = [
   {
     id: ++id,
     name: 'Bryn',
-    type: 'Ansiktsbehandling',
+    type: 'Bryn',
     image: '../images/eyebrows.jpg',
     excerpt: 'Excerpt om bryn',
-    description: 'Dypt rengjørende ansiktsbehandling av huden, som gjøres for hånd for å få huden ren. Behandlingen inkluderer  peeling, rensing av huden, serum, maske og krem etter hudtype.',
     treatments: [
       {
         dataId: ++dataId,
@@ -49,11 +48,10 @@ const products = [
   },
   {
     id: ++id,
-    name: 'Ansiktsbehandling m/ultralyd',
+    name: 'Ansiktsbehandling',
     type: 'Ansiktsbehandling',
     image: '../images/face.jpg',
     excerpt: 'Excerpt om Ansiktsbehandling m/ultralyd',
-    description: 'Ultralydsbehandling er en effektiv og skånsom dyp rengjøring og peeling av huden, som samtidig aktiverer hudens funksjoner.',
     treatments: [
       {
         dataId: ++dataId,
@@ -93,14 +91,14 @@ const products = [
       {
         dataId: ++dataId,
         treatment: `
-      <li class="treatment-name">Kjemisk peeling</li>
+      <li class="treatment-name" data-id=${dataId}>Kjemisk peeling</li>
       <li><p class="treatment-content--description" data-id=${dataId}>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of.</p></li>
       `
       },
       {
         dataId: ++dataId,
         treatment: `
-      <li class="treatment-name">Kavitasjon peeling</li>
+      <li class="treatment-name" data-id=${dataId}>Kavitasjon peeling</li>
       <li><p class="treatment-content--description" data-id=${dataId}>Long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'</p></li>`
       }
     ]
