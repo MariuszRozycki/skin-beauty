@@ -35,7 +35,9 @@ let flag;
 for (let treatmentNameButton of treatmentNameButtons) {
   treatmentNameButton.addEventListener('click', () => {
     flag = !flag;
-    console.log(flag);
+
+    treatmentNameButton.classList.toggle("treatment-name-clicked");
+
     const treatementDescriptions = document.querySelectorAll(".treatment-content--description");
     for (let singleDesc of treatementDescriptions) {
       if (singleDesc.getAttribute("data-id") === (treatmentNameButton.getAttribute("data-id"))) {

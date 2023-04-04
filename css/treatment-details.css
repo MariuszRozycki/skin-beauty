@@ -20,7 +20,7 @@
   cursor: pointer;
 }
 
-.treatment-name:hover {
+.treatment-name-clicked {
   text-decoration: underline;
 }
 
