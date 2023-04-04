@@ -13,7 +13,7 @@
 }
 
 .treatment-name {
-  padding-top: 20px;
+  margin: 10px 0;
   text-transform: uppercase;
   font-weight: 500;
   transition: var(--transition-medium);
@@ -29,10 +29,10 @@
   line-height: 1.5;
   overflow-y: hidden;
   transition: .5s;
-  margin: 5px 0 0;
+  margin: 10px 0;
 }
 
 .animate-more-description {
-  height: 150px;
+  height: 250px;
   overflow-y: auto;
 }

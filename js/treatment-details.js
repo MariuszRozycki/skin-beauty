@@ -5,7 +5,7 @@ const productId = params.get("id");
 const product = products.find(({ id }) => id == productId);
 
 const productTreatments = product.treatments;
-const singleTreatment = productTreatments.map(el => el.treatment);
+const singleTreatment = productTreatments.map(el => el.treatment).join("");
 
 
 
