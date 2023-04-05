@@ -17,7 +17,7 @@ itemContentTreatmentDetails.innerHTML = `
               alt="${product.name}">
           </div>
           <div class="h2-wrapper">
-            <h2>${product.name}</h2>
+            <h2>${product.name}:</h2>
           </div>
           <ul class="treatments-list"></ul>
           <a href="https://timma.no/salong/alena-beauty" class="btn btn-treatment">Bestill time</a>
