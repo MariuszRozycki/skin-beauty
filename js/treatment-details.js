@@ -6,10 +6,6 @@ const productTreatments = product.treatments;
 const itemContentTreatmentDetails = document.querySelector('.item-content-treatment-details');
 let flag = true;
 
-
-
-
-
 itemContentTreatmentDetails.innerHTML = `
         <div class="container">
           <div class="item-content--img">
