@@ -25,7 +25,7 @@
 }
 
 .treatment-content--description {
-  height: 0;
+  max-height: 0;
   line-height: 1.5;
   overflow-y: hidden;
   transition: .5s;
@@ -33,7 +33,7 @@
 }
 
 .animate-more-description {
-  height: 250px;
+  max-height: 500px;
   overflow-y: auto;
 }
 
