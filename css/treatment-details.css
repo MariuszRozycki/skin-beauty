@@ -16,7 +16,6 @@
   margin: 10px 0;
   text-transform: uppercase;
   font-weight: 500;
-  transition: var(--transition-medium);
   cursor: pointer;
 }
 
@@ -28,7 +27,7 @@
   max-height: 0;
   line-height: 1.5;
   overflow-y: hidden;
-  transition: .5s;
+  /* transition: var(--transition-medium); */
   margin: 10px 0;
 }
 

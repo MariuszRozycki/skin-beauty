@@ -53,5 +53,5 @@ font-family: 'Roboto', sans-serif;
   --padding-hamburger-menu-icon: 10px;
 
   /* transition */
-  --transition-medium: .3s;
+  --transition-medium: .2s ease-in;
 }
