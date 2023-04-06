@@ -27,13 +27,12 @@
   max-height: 0;
   line-height: 1.5;
   overflow-y: hidden;
-  /* transition: var(--transition-medium); */
+  transition: var(--transition-medium);
   margin: 10px 0;
 }
 
 .animate-more-description {
   max-height: 600px;
-  overflow-y: auto;
   margin: 10px 0 30px;
 }
 
