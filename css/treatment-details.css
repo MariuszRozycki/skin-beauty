@@ -33,6 +33,16 @@
 }
 
 .animate-more-description {
-  height: 250px;
+  height: 350px;
   overflow-y: auto;
+}
+
+.close-btn {
+  padding: 5px 10px;
+  border-radius: var(--middle-radius);
+  border: 1px solid;
+  display: inline-block;
+  font-weight: 400;
+  background-color: var(--color-no17);
+  margin: 15px 0 20px;
 }

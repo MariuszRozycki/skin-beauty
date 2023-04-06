@@ -23,7 +23,8 @@ font-family: 'Roboto', sans-serif;
   --color-no13: #fbf2f3;
   --color-no14: #393053;
   --color-no15: #105844;
-  --color-no16: #3c2049;
+  --color-no16: rgb(60, 32, 73);
+  --color-no17: rgba(60, 32, 73, .1);
 
   /* font-size standard*/
   --normal-font-size: 1rem;

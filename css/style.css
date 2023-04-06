@@ -5,6 +5,9 @@
 @import url('home-about.css');
 @import url('footer.css');
 
+/* price list */
+@import url('price-list.css');
+
 /* treatments */
 @import url('treatments.css');
 

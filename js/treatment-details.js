@@ -4,7 +4,7 @@ const productId = params.get("id");
 const product = products.find(({ id }) => id == productId);
 const productTreatments = product.treatments;
 const itemContentTreatmentDetails = document.querySelector('.item-content-treatment-details');
-let flag;
+let flag = true;
 
 
 
@@ -29,40 +29,34 @@ const treatmentList = document.querySelector(".treatments-list");
 productTreatments.forEach(item => {
   treatmentList.innerHTML += `
   <li class="treatment-name" data-id=${item.dataId}>${item.treatmentName} <span class="open-icons" data-id=${item.dataId}><i class="fas fa-chevron-circle-down"></i></span></li>
-  <li><p class="treatment-content--description" data-id=${item.dataId}>${item.treatmentDescription}</p></li>
+  <li>
+    <p class="treatment-content--description" data-id=${item.dataId}>${item.treatmentDescription}
+    <span class="close-btn" data-id=${item.dataId}><i class="fas fa-chevron-circle-up"></i> HIDE DESCRIPTION</span>
+    </p>
+  </li>
   `;
 });
 
 const treatmentNameButtons = document.querySelectorAll(".treatment-name");
 const treatementDescriptions = document.querySelectorAll(".treatment-content--description");
 const opens = document.querySelectorAll(".open-icons");
+const closeBtns = document.querySelectorAll(".close-btn");
 
-for (let treatmentNameButton of treatmentNameButtons) {
+for (const treatmentNameButton of treatmentNameButtons) {
   treatmentNameButton.addEventListener('click', () => {
     treatmentNameButton.classList.toggle("treatment-name-clicked");
-    for (let singleDesc of treatementDescriptions) {
-
+    for (const singleDesc of treatementDescriptions) {
       if (treatmentNameButton.getAttribute("data-id") === singleDesc.getAttribute("data-id")) {
-        flag = !flag;
         singleDesc.classList.toggle("animate-more-description");
-
-        for (let open of opens) {
-          if (flag && open.getAttribute("data-id") === singleDesc.getAttribute("data-id")) {
-            open.innerHTML = `<i class="fas fa-chevron-circle-up"></i>`
-          }
-          else {
-            open.innerHTML = `<i class="fas fa-chevron-circle-down"></i>`
+        for (const closeBtn of closeBtns) {
+          if (closeBtn.getAttribute("data-id") === singleDesc.getAttribute("data-id") && treatmentNameButton.getAttribute("data-id")) {
+            closeBtn.onclick = () => {
+              singleDesc.classList.remove("animate-more-description");
+              treatmentNameButton.classList.remove("treatment-name-clicked");
+            }
           }
         }
       };
     }
   });
 }
-
-
-
-
-
-
-
-
