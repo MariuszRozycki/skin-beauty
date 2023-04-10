@@ -23,7 +23,6 @@
 
 .opening-hours--details {
   display: grid;
-  row-gap: 5px;
   background-color: var(--color-no13);
   padding: 10px 5px;
 }

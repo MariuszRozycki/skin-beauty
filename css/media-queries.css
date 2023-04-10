@@ -121,6 +121,10 @@
     grid-template-columns: 40% 60%;
   }
 
+  .item-content--img {
+    max-height: 300px;
+  }
+
   .item-content-treatment {
     grid-template-columns: 100%;
   }
