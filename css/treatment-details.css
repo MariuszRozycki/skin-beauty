@@ -4,6 +4,14 @@
   color: var(--color-no16);
 }
 
+.item-content-treatment-details {
+  grid-template-columns: 100%;
+}
+
+.item-content-treatment-details .item-content--img {
+  max-height: 300px;
+}
+
 .item-content-treatment-details .container {
   row-gap: 20px;
 }
@@ -42,7 +50,7 @@
   border: 1px solid;
   display: block;
   text-align: center;
-  width: 230px;
+  max-width: 300px;
   font-weight: 400;
   background-color: var(--color-no17);
   margin-top: 10px;

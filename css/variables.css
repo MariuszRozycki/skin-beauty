@@ -24,7 +24,10 @@ font-family: 'Roboto', sans-serif;
   --color-no14: #393053;
   --color-no15: #105844;
   --color-no16: rgb(60, 32, 73);
+  /* Alena's color rgb(60, 32, 73) */
+  /*--color-no16: rgb(60, 32, 73);  */
   --color-no17: rgba(60, 32, 73, .1);
+  --color-no18: rgb(34, 17, 41);
 
   /* font-size standard*/
   --normal-font-size: 1rem;
@@ -39,12 +42,13 @@ font-family: 'Roboto', sans-serif;
 
   /* box-shadow */
   --box-shadow: 0px 0px 40px 5px var(--color-no16);
+  --box-shadow-nav: 0px 5px 20px var(--color-no16);
   --box-shadow-white: 0px 0px 40px 5px var(--color-no7);
   --box-shadow-light: 0px 0px 10px 1px var(--color-no16);
   --box-shadow-light-white: 0px 0px 10px 1px var(--color-no7);
 
   /* text-shadow */
-  --text-shadow-dark: 2px 2px 8px var(--color-no16);
+  --text-shadow-dark: 3px 3px 4px var(--color-no16);
   --text-shadow-light: 2px 2px 5px var(--color-no7);
   --prefix-text-shadow: 4px 5px 4px #000;
 

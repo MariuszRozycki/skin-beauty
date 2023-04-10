@@ -42,7 +42,7 @@ const products = [
   },
   {
     id: ++id,
-    name: 'Ansiktsbehandling',
+    name: 'Ansikt',
     type: 'Ansiktsbehandling',
     image: '../images/face.jpg',
     excerpt: 'Excerpt om Ansiktsbehandling m/ultralyd',

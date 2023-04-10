@@ -7,8 +7,7 @@
   width: 100%;
   z-index: 3;
   transform: var(--transition-medium);
-  background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: var(--box-shadow);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .nav-main .container {
@@ -100,6 +99,12 @@
   background-color: rgba(255, 255, 255, 0.3);
   width: 100%;
   padding: 10px;
+  transition: var(--transition-medium);
+  text-transform: uppercase;
+}
+
+.nav-main_list a:hover {
+  color: var(--color-no1);
 }
 
 .nav-main_list a.active {
