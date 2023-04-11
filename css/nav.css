@@ -35,6 +35,7 @@
 .logo,
 .hamburger-menu {
   padding: var(--padding-hamburger-menu-icon);
+  cursor: pointer;
 }
 
 .bars {

@@ -10,6 +10,7 @@ footer ul {
   grid-template-columns: 100%;
   grid-template-rows: repeat(4, auto);
   row-gap: 5px;
+  margin: 0 auto;
 }
 
 footer ul li {
@@ -17,9 +18,11 @@ footer ul li {
   justify-content: center;
 }
 
-footer a {
+footer a,
+footer a:hover {
   font-size: var(--normal-font-size);
   display: block;
   color: var(--color-no7);
   font-weight: 200;
+  text-decoration: none;
 }
