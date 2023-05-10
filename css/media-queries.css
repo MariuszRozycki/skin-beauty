@@ -156,6 +156,10 @@
     margin: 0 auto;
   }
 
+  .close-btn {
+    font-size: calc(var(--normal-font-size) + .2vw);
+  }
+
   .opening-hours .h2-wrapper a {
     display: inline;
   }
