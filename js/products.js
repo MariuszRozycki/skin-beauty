@@ -7,7 +7,7 @@ const products = [
     name: 'Vipper',
     type: 'Vipper',
     image: '../images/lashes1.jpg',
-    excerpt: 'Noe for alle kvinner som ønsker seg å få lengre vipper',
+    excerpt: `Oppnå en uimotståelig øyekontakt med våre luksuriøse vippebehandlinger.`,
     treatments: [
       {
         dataId: ++dataId,
@@ -29,7 +29,7 @@ const products = [
     name: 'Bryn',
     type: 'Bryn',
     image: '../images/eyebrows.jpg',
-    excerpt: 'Excerpt om bryn',
+    excerpt: `Gi ansiktet ditt et løft med våre profesjonelle brynbehandlinger og opplev en forvandling du vil elske.`,
     treatments: [
       {
         dataId: ++dataId,
@@ -60,7 +60,7 @@ const products = [
     name: 'Ansikt',
     type: 'Ansiktsbehandling',
     image: '../images/face.jpg',
-    excerpt: 'Excerpt om Ansiktsbehandling m/ultralyd',
+    excerpt: `Opplev øyeblikket av ren forkjælelse - bestill din ansiktsbehandling i dag!`,
     treatments: [
       {
         dataId: ++dataId,
@@ -127,6 +127,25 @@ const products = [
         
         Fordelene med kavitasjon peeling inkluderer en renere og glattere hudoverflate, økt cellefornyelse og en forbedret tekstur og hudtone. Behandlingen kan også bidra til å redusere synlige aldringstegn som fine linjer og rynker.
         Det anbefales også å unngå eksponering for sollys og bruke solkrem etter behandlingen for å beskytte den nyfrelste huden.`,
+      },
+      {
+        dataId: ++dataId,
+        treatmentName: 'Microneedling',
+        treatmentDescription: `Microneedling (også kjent som dermaroller og dermapen) er et populært alternativ når du ønsker en oppstrammende behandling for å bedre hudens elastisitet og redusere fine linjer, rynker, pigmentflekker, arr, porer, brannskader og strekkmerker.
+        <br><br>
+
+        Etter hvert som vi mennesker blir eldre, reduseres det kollagenet som naturlig finnes i huden. Dette fører til at vi får linjer og rynker og at huden blir slappere og kanskje litt mer livløs og gusten enn før. Hvis dette er noe som plager deg, kan du vurdere å prøve microneedling som er en behandling for å stimulere huden til å danne nytt kollagen.
+        Dermed får dette en fornyet effekt på huden din, og den blir fastere og får færre linjer.
+        <br><br>
+
+        I denne behandlingen brukes en spesiallaget penn eller rulle med små nåler som lager tusenvis av mikrohull i det ytterste hudlaget. Huden må reparere disse små hullene, og for å få til det, går kroppen i reparasjonsmodus og øker produksjonen av kollagen og elastin.
+        <br><br>
+
+        Microneedling kan utføres på ulike deler av kroppen, inkludert ansikt, hals, hender og rygg.
+        <br><br>
+
+        Det anbefales fire til seks behandlinger med noen ukers mellomrom.
+        `,
       }
     ]
   },

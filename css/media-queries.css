@@ -134,7 +134,7 @@
   }
 
   .grid-container {
-    grid-template-rows: 120px 100px auto;
+    grid-template-rows: 120px 180px auto;
   }
 
   .btn-treatment {

@@ -27,6 +27,7 @@ h1 {
 }
 
 .btn-treatment {
+  margin-top: 25px;
   border: 0px solid;
   background-color: var(--color-no16);
   box-shadow: var(--box-shadow-light);
