@@ -97,17 +97,6 @@ const products = [
       },
       {
         dataId: ++dataId,
-        treatmentName: 'Ultralyd',
-        treatmentDescription: `Ultralyd, er en medisinsk bildebehandlingsteknikk som bruker høyfrekvente lydbølger for å generere bilder av kroppens indre strukturer. Denne ikke-invasive metoden brukes til å visualisere organer, vev og blodstrøm i realtid.<br><br>
-
-        Under en ultralydundersøkelse sender en ultralydmaskin lydbølger inn i kroppen ved hjelp av en transduser, som er en håndholdt enhet som ligner en mikrofon. Disse lydbølgene treffer forskjellige vevslag og reflekteres tilbake til transduseren. Maskinen tolker disse ekkoene og skaper et bilde basert på mønsteret av reflekterte lydbølger.<br><br>
-
-        Ultralyd brukes til å evaluere ulike medisinske tilstander og gir legen informasjon om organers struktur og funksjon. Det brukes vanligvis til å undersøke blant annet bukorganene (som lever, nyrer og galleblære), hjertet, skjoldbruskkjertelen, muskler og ledd. Ultralyd er også mye brukt under graviditet for å overvåke fosterets utvikling.<br><br>
-
-        Fordelene med ultralyd inkluderer at det er ikke-invasivt, smertefritt og ikke bruker ioniserende stråling som røntgen. Det er også relativt rimelig og enkelt å utføre sammenlignet med andre bildebehandlingsteknikker.`,
-      },
-      {
-        dataId: ++dataId,
         treatmentName: 'Kjemisk peeling',
         treatmentDescription: `Kjemisk peeling er en kosmetisk behandling som brukes for å forbedre hudens utseende og tekstur ved å fjerne de øverste lagene av huden ved hjelp av en kjemisk løsning. Dette gir en jevnere og mer strålende hudoverflate, og kan også bidra til å redusere synlige aldringstegn som rynker, fine linjer og solskader.
         Under en kjemisk peeling vil en profesjonell påføre en kjemisk løsning på huden, som vil forårsake en kontrollert skade på de øverste lagene av huden. Dette vil føre til at de døde hudcellene blir fjernet og stimulere ny cellevekst og kollagenproduksjon.<br><br>
