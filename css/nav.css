@@ -21,7 +21,6 @@
   color: var(--color-no16);
   font-size: calc(var(--normal-font-size) + 1vw);
   font-weight: 400;
-  text-shadow: var(--text-shadow-dark);
 }
 
 .first-letter {
