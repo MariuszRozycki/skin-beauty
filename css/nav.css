@@ -7,7 +7,7 @@
   width: 100%;
   z-index: 3;
   transform: var(--transition-medium);
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: var(--color-no7);
 }
 
 .nav-main .container {
