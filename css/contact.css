@@ -17,6 +17,8 @@ iframe {
 .contact-data li {
   display: block;
   padding-bottom: 10px;
+  padding-left: 5px;
+  font-style: italic;
 }
 
 .contact a {
@@ -25,7 +27,6 @@ iframe {
 }
 
 .contact a span {
-  font-style: italic;
   font-weight: 500;
 }
 
