@@ -6,7 +6,7 @@ const products = [
     id: id,
     name: 'Vipper',
     type: 'Vipper',
-    image: '../images/lashes1.jpg',
+    image: '../../images/lashes1.jpg',
     excerpt: `Oppnå en uimotståelig øyekontakt med våre luksuriøse vippebehandlinger.`,
     treatments: [
       {
@@ -28,7 +28,7 @@ const products = [
     id: ++id,
     name: 'Bryn',
     type: 'Bryn',
-    image: '../images/eyebrows.jpg',
+    image: '../../images/eyebrows.jpg',
     excerpt: `Gi ansiktet ditt et løft med våre profesjonelle brynbehandlinger og opplev en forvandling du vil elske.`,
     treatments: [
       {
@@ -59,7 +59,7 @@ const products = [
     id: ++id,
     name: 'Ansikt',
     type: 'Ansiktsbehandling',
-    image: '../images/face.jpg',
+    image: '../../images/face.jpg',
     excerpt: `Opplev øyeblikket av ren forkjælelse - bestill din ansiktsbehandling i dag!`,
     treatments: [
       {
